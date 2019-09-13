@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C04DB61232B879700B73B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04DB60232B879700B73B9C /* AppDelegate.swift */; };
+		1C04DB63232B879700B73B9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04DB62232B879700B73B9C /* ViewController.swift */; };
+		1C04DB66232B879700B73B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C04DB64232B879700B73B9C /* Main.storyboard */; };
+		1C04DB68232B879800B73B9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C04DB67232B879800B73B9C /* Assets.xcassets */; };
+		1C04DB6B232B879800B73B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C04DB69232B879800B73B9C /* LaunchScreen.storyboard */; };
+		1C04DB73232B8A4500B73B9C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04DB72232B8A4500B73B9C /* Post.swift */; };
+		F52391B1CE384359FC26BC3D /* Pods_AlamoreFireGetPost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF494B73260CD1B0ADA15227 /* Pods_AlamoreFireGetPost.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C04DB5D232B879700B73B9C /* AlamoreFireGetPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamoreFireGetPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C04DB60232B879700B73B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C04DB62232B879700B73B9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C04DB65232B879700B73B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C04DB67232B879800B73B9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C04DB6A232B879800B73B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C04DB6C232B879800B73B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C04DB72232B8A4500B73B9C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		30DB8250FF2D1CCA44E00804 /* Pods-AlamoreFireGetPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoreFireGetPost.debug.xcconfig"; path = "Target Support Files/Pods-AlamoreFireGetPost/Pods-AlamoreFireGetPost.debug.xcconfig"; sourceTree = "<group>"; };
+		D09B71CFB992A1AF333CF673 /* Pods-AlamoreFireGetPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoreFireGetPost.release.xcconfig"; path = "Target Support Files/Pods-AlamoreFireGetPost/Pods-AlamoreFireGetPost.release.xcconfig"; sourceTree = "<group>"; };
+		EF494B73260CD1B0ADA15227 /* Pods_AlamoreFireGetPost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamoreFireGetPost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C04DB5A232B879700B73B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52391B1CE384359FC26BC3D /* Pods_AlamoreFireGetPost.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C04DB54232B879700B73B9C = {
+			isa = PBXGroup;
+			children = (
+				1C04DB5F232B879700B73B9C /* AlamoreFireGetPost */,
+				1C04DB5E232B879700B73B9C /* Products */,
+				95C7FCC3FC9B43D286C229A3 /* Pods */,
+				A82EB7F779980FBDBA63A3E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C04DB5E232B879700B73B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C04DB5D232B879700B73B9C /* AlamoreFireGetPost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C04DB5F232B879700B73B9C /* AlamoreFireGetPost */ = {
+			isa = PBXGroup;
+			children = (
+				1C04DB60232B879700B73B9C /* AppDelegate.swift */,
+				1C04DB62232B879700B73B9C /* ViewController.swift */,
+				1C04DB72232B8A4500B73B9C /* Post.swift */,
+				1C04DB64232B879700B73B9C /* Main.storyboard */,
+				1C04DB67232B879800B73B9C /* Assets.xcassets */,
+				1C04DB69232B879800B73B9C /* LaunchScreen.storyboard */,
+				1C04DB6C232B879800B73B9C /* Info.plist */,
+			);
+			path = AlamoreFireGetPost;
+			sourceTree = "<group>";
+		};
+		95C7FCC3FC9B43D286C229A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30DB8250FF2D1CCA44E00804 /* Pods-AlamoreFireGetPost.debug.xcconfig */,
+				D09B71CFB992A1AF333CF673 /* Pods-AlamoreFireGetPost.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A82EB7F779980FBDBA63A3E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF494B73260CD1B0ADA15227 /* Pods_AlamoreFireGetPost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C04DB5C232B879700B73B9C /* AlamoreFireGetPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C04DB6F232B879800B73B9C /* Build configuration list for PBXNativeTarget "AlamoreFireGetPost" */;
+			buildPhases = (
+				AEC853646E08787BB87D7AA5 /* [CP] Check Pods Manifest.lock */,
+				1C04DB59232B879700B73B9C /* Sources */,
+				1C04DB5A232B879700B73B9C /* Frameworks */,
+				1C04DB5B232B879700B73B9C /* Resources */,
+				B5E36920BC606CDBA94EC98E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamoreFireGetPost;
+			productName = AlamoreFireGetPost;
+			productReference = 1C04DB5D232B879700B73B9C /* AlamoreFireGetPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C04DB55232B879700B73B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = DangKhanh;
+				TargetAttributes = {
+					1C04DB5C232B879700B73B9C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 1C04DB58232B879700B73B9C /* Build configuration list for PBXProject "AlamoreFireGetPost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C04DB54232B879700B73B9C;
+			productRefGroup = 1C04DB5E232B879700B73B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C04DB5C232B879700B73B9C /* AlamoreFireGetPost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C04DB5B232B879700B73B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C04DB6B232B879800B73B9C /* LaunchScreen.storyboard in Resources */,
+				1C04DB68232B879800B73B9C /* Assets.xcassets in Resources */,
+				1C04DB66232B879700B73B9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEC853646E08787BB87D7AA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlamoreFireGetPost-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E36920BC606CDBA94EC98E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlamoreFireGetPost/Pods-AlamoreFireGetPost-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlamoreFireGetPost/Pods-AlamoreFireGetPost-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlamoreFireGetPost/Pods-AlamoreFireGetPost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C04DB59232B879700B73B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C04DB73232B8A4500B73B9C /* Post.swift in Sources */,
+				1C04DB63232B879700B73B9C /* ViewController.swift in Sources */,
+				1C04DB61232B879700B73B9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C04DB64232B879700B73B9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C04DB65232B879700B73B9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C04DB69232B879800B73B9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C04DB6A232B879800B73B9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C04DB6D232B879800B73B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C04DB6E232B879800B73B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C04DB70232B879800B73B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DB8250FF2D1CCA44E00804 /* Pods-AlamoreFireGetPost.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlamoreFireGetPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = harry.AlamoreFireGetPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C04DB71232B879800B73B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09B71CFB992A1AF333CF673 /* Pods-AlamoreFireGetPost.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlamoreFireGetPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = harry.AlamoreFireGetPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C04DB58232B879700B73B9C /* Build configuration list for PBXProject "AlamoreFireGetPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C04DB6D232B879800B73B9C /* Debug */,
+				1C04DB6E232B879800B73B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C04DB6F232B879800B73B9C /* Build configuration list for PBXNativeTarget "AlamoreFireGetPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C04DB70232B879800B73B9C /* Debug */,
+				1C04DB71232B879800B73B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C04DB55232B879700B73B9C /* Project object */;
+}
